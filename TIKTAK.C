@@ -1,16 +1,13 @@
 #include <stdio.h>
 
-//function prototypes
 void displayBoard();
 int verifySelection(int,int);
 void checkForWin();
 
-//global variables
 char board[ 8 ], whoWon = ' ';
 
 int currentPlayer = 0;
 
-//begin main function
 int main() {
 
     int i, square;    
@@ -59,7 +56,7 @@ int main() {
        displayBoard();
        checkForWin();
 
-    }//end for loop
+    }
 
    getch();
    return (0);
@@ -158,8 +155,7 @@ void checkForWin() {
 
     }     
 
-     //for diagonals
-     if(board[ 0 ] == 'X' && board[ 4 ] == 'X' && board[ 8 ] == 'X') {
+       if(board[ 0 ] == 'X' && board[ 4 ] == 'X' && board[ 8 ] == 'X') {
 
         whoWon = 'X';
 
