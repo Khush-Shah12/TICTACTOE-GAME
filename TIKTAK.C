@@ -64,7 +64,7 @@ int main() {
    getch();
    return (0);
 
-};
+}
 //Khush Shah
 void displayBoard() {
 
@@ -78,7 +78,7 @@ void displayBoard() {
      printf("--------|-------|--------\n");
      printf("%c\t|%c\t|%c\n", board[6], board[7], board[8]);
      printf("\t|\t|\n");
-};
+}
 
 int verifySelection(int square, int player) {
 
