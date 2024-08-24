@@ -1,3 +1,6 @@
+//Khush Shah
+//TIC TAC TOE Game In C Language--
+
 #include <stdio.h>
 
 void displayBoard();
@@ -62,7 +65,7 @@ int main() {
    return (0);
 
 };
-
+//Khush Shah
 void displayBoard() {
 
      system("cls");
